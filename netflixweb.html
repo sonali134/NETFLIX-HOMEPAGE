@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .box {
+            background-color: black;
+            box-shadow: 0px 0px 10px white;
+            height: 600px;
+            width: 100%;
+            border: 1px solid;
+        }
+
+        #box1 {
+            height: 1000px;
+            color: white;
+            text-align: center;
+            background-image: url(./netflix1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+        }
+
+        nav {
+            width: 100%;
+            height: 50px;
+        }
+
+        h2 {
+            display: inline;
+            color: red;
+            font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+            font-size: 30px;
+            fill: currentColor;
+
+        }
+
+         #select {
+            margin-top: 20px;
+            margin-left: 50%;
+            background-color: transparent;
+            color: white;
+            border: 1px solid grey;
+            padding: 10px 25px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+         select option {
+            font-size: 20px;
+        }
+
+        nav #login {
+            padding: 9px 15px;
+            color: white;
+            background-color: red;
+            margin-top: 20px;
+            border: red;
+            font-size: 15px;
+            margin-left: 10px;
+            border-radius: 5px;
+
+        }
+
+        #head {
+            border: 1px solid transparent;
+            height: 300px;
+            width: 100%;
+            margin: 200px auto;
+        }
+
+        h1 {
+            font-size: 80px;
+        }
+
+        p {
+            font-size: 30px;
+            margin-top: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #button {
+            padding: 20px 50px;
+            color: white;
+            background-color: red;
+            margin-top: 20px;
+            border: red;
+            font-size: 20px;
+        }
+
+        .text {
+            height: 400px;
+            width: 650px;
+            border: 1px solid transparent;
+            margin-top: 200px;
+            vertical-align: middle;
+            display: inline-block;
+            color: white;
+
+        }
+
+        #text1 {
+            margin-left: 100px;
+
+        }
+
+        #text2 {
+            background-image: url(./text2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 50px;
+        }
+
+        #text3 {
+            background-image: url(./mobile-0819.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-top: 40px;
+        }
+
+        #text5 {
+            width: 500px;
+            margin-left: 80px;
+        }
+
+        #text6 {
+            background-image: url(./device-pile-in.png);
+            background-repeat: no-repeat;
+            background-size: 500px;
+            background-position: center;
+            margin-top: 50px;
+            margin-left: 30px;
+
+        }
+
+        #text7 {
+            background-image: url(./children.png);
+            background-position: center;
+            background-size: 500px;
+            background-repeat: no-repeat;
+            margin-top: 50px;
+
+        }
+        #box6{
+            height: 1000px;
+            color: white;
+        }
+        details{
+            color: white;
+            background-color: grey;
+            margin-top: 10px;
+            margin-left: 20px;
+            
+        }
+        summary{
+            padding: 30px;
+            font-size: 30px;
+        }
+        #bottom{
+            width: 900px;
+            margin-top: 80px;
+            margin-left:450px;
+
+        }
+        #email{
+            background-color: transparent;
+            text-decoration: none;
+            border:1px solid white;
+            padding: 23px 150px;
+            text-align: left;
+            color: white;
+        }
+        ul{
+            display: inline-block;
+            margin-left: 90px;
+        }
+        a{
+            color: grey;
+            line-height: 30px;
+        }
+        #list{
+            margin-left: 150px;
+            margin-top: 70px;
+        }
+            
+            
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box1">
+        <nav>
+            <h2>
+                NETFLIX
+            </h2>
+            <select name="" id="select">
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+            </select>
+            <input type="button" id="login" value="Sign in">
+        </nav>
+        <div id="head">
+
+            <h1> Laughter. Tears. Thrills. Find it all on Netflix.</h1>
+            <p>Endless entertainment starts at just ₹ 149. Cancel anytime.</p>
+            <p>Ready to watch? Enter your email to create or restart your membership.
+            </p>
+            <input type="button" name="" id="button" value="Start your Membership">
+        </div>
+    </div>
+    <div class="box" id="box2">
+        <div id="text1" class="text">
+            <h1 style="font-size: 50px;"> Enjoy on your TV </h1>
+            <p style="font-size: 30px;">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and
+                more.</p>
+        </div>
+        <div id="text2" class="text"></div>
+    </div>
+    <div class="box" id="box3">
+        <div class="text" id="text3"></div>
+        <div class="text" id="text4">
+            <h1 style="font-size: 50px;">Download your shows to watch offline</h1>
+            <p style="font-size: 20px;">Save your favourites easily and always have something to watch.</p>
+        </div>
+    </div>
+    <div class="box" id="box4">
+        <div class="text" id="text5">
+            <h1 style="font-size: 60px;">Watch everywhere</h1>
+            <p style="font-size: 30px;">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+        <div class="text" id="text6"></div>
+    </div>
+    <div class="box" id="box5">
+        <div class="text" id="text7"></div>
+        <div class="text" id="text8">
+            <h1 style="font-size: 60px;">Create Profiles for Kids</h1>
+            <p style="font-size: 30px;">Send children on adventures with their favourite characters in a space made just
+                for them—free with your membership.</p>
+        </div>
+    </div>
+    <div class="box" id="box6">
+        <h1 style="font-size: 50px; text-align: center; ">Frequently Asked Question</h1>
+        <details>
+            <summary>What is Netflix?</summary>
+            <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                documentaries and more – on thousands of internet-connected devices.
+
+                You can watch as much as you want, whenever you want, without a single ad – all for one low monthly
+                price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+        </details>
+        <details>
+            <summary>How much does Netflix cost?</summary>
+            <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed
+                monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.</p>
+        </details>
+        <details>
+            <summary>Where can I watch?</summary>
+            <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com
+                from
+                your personal computer or on any internet-connected device that offers the Netflix app, including smart
+                TVs,
+                smartphones, tablets, streaming media players and game consoles.
+
+                You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to
+                watch
+                while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+        </details>
+        <details>
+            <summary>How do I cancel?</summary>
+            <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your
+                account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+        </details>
+        <details>
+            <summary>What can I watch on Netflix?</summary>
+            <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix
+                originals, and more. Watch as much as you want, anytime you want.</p>
+        </details>
+        <details>
+            <summary>Is Netflix good for kids?</summary>
+            <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy
+                family-friendly TV shows and films in their own space.
+
+                Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of
+                content kids can watch and block specific titles you don’t want kids to see.</p>
+        </details>
+        <div class="text" id="bottom">
+        <p style="font-size: 25px;">Ready to watch? Enter your email to create or restart your membership.</p>
+        <input type="email" placeholder="Email address" id="email"> <input type="button" id="button" value="Get Started >">
+        </div>
+    </div>
+    <div class="box" id="box7" >
+        <div id="list">
+        <p style="color: grey;">Questions? Call <a href="#">000-800-919-1694</a>
+        </p>
+        <ul style="margin-left: 10px;">
+           <li><a href="#">FAQ</a></li>
+           <li><a href="#">Investor Relatiions</a></li>
+           <li ><a href="#">Privacy</a></li>
+           <li><a href="#">Speed Test</a></li>
+
+        </ul>
+        <ul data-layout="container">flex ==$0
+            <li ><a href="#">Help Center</a></li>
+            <li ><a href="#">Jobs</a></li>
+            <li ><a href="#">Cookie Preferences</a></li>
+            <li ><a href="#">Legal Notice</a></li>
+ 
+         </ul>
+         <ul data-layout="container">flex ==$0
+            <li ><a href="#">Account</a></li>
+            <li ><a href="#">Ways to Watch</a></li>
+            <li ><a href="#">Corporate Information
+            </a></li>
+            <li ><a href="#">Only on Netflix</a></li>
+ 
+         </ul>
+         <ul data-layout="container">flex ==$0
+            <li ><a href="#">Media Center</a></li>
+            <li ><a href="#">Terms of Use</a></li>
+            <li><a href="#">Contact us</a></li>
+    
+ 
+         </ul>
+         <select name="" id="select" style="margin-left: 10px; display: block; color: gray;">
+            <option value="english">English</option>
+            <option value="hindi">Hindi</option>
+        </select>
+        <h6 style="color: grey; font-size: 15px; margin: 10px ;">Netflix India</h6>
+        </div>
+    </div>
+</body>
+
+</html>
